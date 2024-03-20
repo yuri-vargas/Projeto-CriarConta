@@ -15,13 +15,25 @@ body{
     background-repeat: no-repeat;
 }
 
+.imagemlado{
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
 main{
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(255, 255, 255);
     border-radius:  0% 5% 5% 0% ;
 
 
-    height: 50vh;
-    width: 50vh;
+    height: 65%;
+    width: 70%;
 
     position: fixed;
     left: 50%;
@@ -57,14 +69,13 @@ form{
 }
 
 form > input{
-    width: 50%;
+    width: 80%;
     padding: 5px;
     margin: 10px;
-    border: none;
     border-radius: 10px;
+    border: outset;
 }
 
 form > input:hover{
-    background-color: rgb(61, 61, 61);
-    color: white;
+    background-color: rgb(197, 197, 197);
 }
