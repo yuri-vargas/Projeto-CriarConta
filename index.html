@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <title>Criar conta</title>
 </head>
 <body>
     
     <main id="login">
+        <div class="imagemcima"></div>
         <div class="imagemlado"></div>
         <h1>Criar uma conta</h1>
-        <h3>Ja tem uma conta? <a id="logar" href="">Logar</a></h3>
+        <h3>Ja tem uma conta? <a id="logar" href="https://yuri-vargas.github.io/ProjetoLogin/index.html">Logar</a></h3>
         <div class="formulario">
+            
             <form action="*" autocomplete="off">
-                <input type="text" name="nome" id="nome" placeholder="nome" autocomplete="off">
-                <input type="email" name="email" id="email" placeholder="email" autocomplete="off">
-                <input type="password" name="senha" id="senha" placeholder="senha">
-                <input type="button" value="Criar conta">
+                <input type="text" name="nome" id="nome" placeholder="nome" autocomplete="off" required>
+                <input type="email" name="email" id="email" placeholder="email" autocomplete="off" required>
+                <input type="password" name="senha" id="senha" placeholder="senha" required>
+                <input type="submit" value="Criar conta">
             </form>
         </div>
     </main>
