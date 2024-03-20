@@ -74,7 +74,7 @@ main #logar{
 }
 
 main #logar:hover{
-    color: rgb(150, 47, 0);
+    color: rebeccapurple;
     text-decoration: underline;
 }
 
@@ -85,14 +85,33 @@ form{
     align-items: center;
 }
 
+.inputStyle{
+    width: 80%;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rebeccapurple;
+
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+input::placeholder{
+    color: rebeccapurple;
+}
+
 form > input{
     width: 80%;
     padding: 5px;
     margin: 10px;
     border-radius: 10px;
-    border: outset;
+    border: 1px dashed rebeccapurple;
+    font-weight: 300;
+    font-style: italic;
 }
 
 form > input:hover{
     background-color: rgb(197, 197, 197);
+    color: rebeccapurple;
 }
