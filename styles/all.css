@@ -10,7 +10,7 @@ body{
     width: 100%;
     height: 100%;
 
-    background-image: url(../imagens/fundo-blur.jpg);
+    background-image: url(../imagens/fundo-blur01.jpg);
     background-size: cover;
     background-position: left;
     background-attachment: fixed;
@@ -18,7 +18,7 @@ body{
 }
 
 .imagemcima{
-    background-image: url(../imagens/fundo.jpg);
+    background-image: url(../imagens/fundo01.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +29,7 @@ body{
 }
 
 .imagemlado{
-    background-image: url(../imagens/fundo.jpg);
+    background-image: url(../imagens/fundo01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
